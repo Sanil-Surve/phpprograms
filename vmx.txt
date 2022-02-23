@@ -1,0 +1,10 @@
+FOR BIOS SYSTEM TO OPEN WE HAVE TO PRESS F2 
+AFTER VMX ENABLED WE HAVE TO PRESS F10
+After the Control Panel is open, choose Programs and Features.
+ In the Programs and Features window, click “Turn Windows features on or off”.
+In the Windows Features window, look for the Hyper-V feature and check all the boxes
+Windows will then install and configure Hyper-V, after which it will ask you to restart and confirm the changes. It will then go through a series of restarts to finish configuring your system.
+ Enter Control Panel and select Administrative Tools.
+In the Administrative Tools window, click on Hyper-V Manager.
+When Hyper-V starts, you will see the name of your computer on the left-side of the application. Select the computer to work on it.
+On the Action menu, select New and Virtual Machine.
