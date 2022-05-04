@@ -1,5 +1,10 @@
 <html>
  <body>
+   <form method="POST">
+     <h1>Enter a Number:</h1>
+       <input type = "number" name = "number">
+       <input type = "submit" value = "Submit">
+   </form>
    <?php
       $num = 153;
       $sum = 0;

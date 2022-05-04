@@ -2,7 +2,7 @@
    <head>
      <style>
         body {
-          background-color: purple;
+          background-color: black;
           text-align: center;
           margin: 20vh;
         }
@@ -18,6 +18,7 @@
 
   <body>
       <title> Number is even or Odd? </title>
+
     <form method="POST">
       <h1>Enter a Number:</h1>
         <input type = "number" name = "number">
@@ -26,10 +27,6 @@
     </form>
 
     <?php
-       if($_POST)
-       {
-         $number = $_POST["number"];
-       }
 
        if($number%2==0)
          echo "<h2>"."$number is Even Number";
